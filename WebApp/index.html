@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>	Perlanie Panganiban | Optical Character Recognition</title>
+		<!-- <link rel="icon" type="image/png" href="icons/p.jpg"> -->
+		<link href="css/stylesheet.css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/angular-route.min.js"></script>
+	</head>
+
+	<body ng-app="OCRApp">
+		<div class="container">
+			<h1>Optical Character Recognition</h1>
+			<ul class="nav nav-tabs">
+	  			<li role="presentation"><a href="/#/">Convolution</a></li>
+			 	<li role="presentation"><a href="/#/thinning">Thinning</a></li>
+			 	<li role="presentation"><a href="/#/zoning">Zoning</a></li>
+			</ul>
+			<div class="header">
+				<div ng-view> </div>
+			</div>
+		</div>
+
+		<!-- Modules -->
+	    <script src="js/app.js"></script>
+
+	    <!-- Controllers -->
+	    <script src="js/controllers/OCRController.js"></script>
+
+	    <!-- Services -->
+	  
+
+	</body>
+ 
+
+</html>
